@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+
+            width: 100px;
+            height: 100px;
+            border: 2px solid rgb(253, 3, 178);
+        }
+        .box .outer{
+            background-color: rgb(45, 160, 106);
+        }
+        .inner{
+            background-color: indianred;
+            transform:scale(.5) ;
+        }
+
+    </style>
+</head>
+<body>
+
+    <h1>Transfrom</h1>
+
+    <div class="box outer">
+
+        <div class="box inner">box-1</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box-2</div>
+    </div>
+    <div class="box outer">
+        <div class="box inner">box-3</div>
+    </div>
+
+</body>
+
+</html>
